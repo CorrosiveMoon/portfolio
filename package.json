@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build",
+    "export": "next build && next export",
     "deploy": "npm run export && npm run push-to-gh-pages",
     "push-to-gh-pages": "git subtree push --prefix out origin gh-pages"
   },
