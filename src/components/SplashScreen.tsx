@@ -46,7 +46,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
           <div className="relative w-32 h-32 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-pulse opacity-75"></div>
             <Image
-              src="/images/avatar-laptop.svg"
+              src="/portfolio/images/avatar-laptop.svg"
               alt="Yassin Hesham"
               width={128}
               height={128}

@@ -68,8 +68,8 @@ export const portfolioData: PortfolioData = {
     resumeUrl: "https://drive.google.com/file/d/1yWn10QLSCYmwKa8U8duF49QlYTOeu_5r/view?usp=sharing",
     location: "Cairo, Egypt",
     avatarImages: {
-      laptop: "/images/avatar-laptop.svg",
-      wave: "/images/avatar-wave.svg"
+      laptop: "/portfolio/images/avatar-laptop.svg",
+      wave: "/portfolio/images/avatar-wave.svg"
     }
   },
 
@@ -121,7 +121,7 @@ export const portfolioData: PortfolioData = {
     school: "New Giza University",
     degree: "BSc in Artificial Intelligence and Data Science",
     duration: "October 2021 – June 2025",
-    logo: "/images/ngulogo.webp",
+    logo: "/portfolio/images/ngulogo.webp",
     description: "Pursuing my undergraduate studies with a strong foundation in AI, software engineering, and data science. My academic journey has been complemented by real-world technical projects, leadership in student governance, and impactful volunteer roles.",
     achievements: [
       "Led as Student Union President for the School of IT, driving collaboration and peer support initiatives",
@@ -136,7 +136,7 @@ export const portfolioData: PortfolioData = {
     {
       role: "Data Scientist / ML Engineer",
       company: "DSquares",
-      logo: "/images/dsquareslogo.webp",
+      logo: "/portfolio/images/dsquareslogo.webp",
       duration: "July 2023 – September 2023",
       description: "Developed a machine learning model for predicting customer age groups based on behavioral data from loyalty programs and coupon usage.",
       achievements: [
@@ -148,7 +148,7 @@ export const portfolioData: PortfolioData = {
     {
       role: "Data/Software Engineer",
       company: "NGU Alumni Office",
-      logo: "/images/ngulogo.webp",
+      logo: "/portfolio/images/ngulogo.webp",
       duration: "2024 – Present",
       description: "Designed a custom alumni data portal enabling NGU staff to manage and interact with alumni information effectively.",
       achievements: [
@@ -163,7 +163,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Tennis Analysis",
       description: "Tracks player and ball movement in tennis videos using YOLOv8. Extracts court keypoints and visualizes trajectories. Built with Ultralytics, PyTorch, and OpenCV.",
-      image: "/images/tennis-logo.png",
+      image: "/portfolio/images/tennis-logo.png",
       technologies: ["Python", "YOLOv8", "PyTorch", "OpenCV", "Computer Vision"],
       github: "https://github.com/CorrosiveMoon/Tennis-Analysis",
       featured: true
@@ -171,14 +171,14 @@ export const portfolioData: PortfolioData = {
     {
       title: "RAG Python Tutor Chatbot",
       description: "Retrieval-Augmented Generation chatbot that answers Python queries with context awareness. Uses LangChain, Chroma, Streamlit, and OpenAI.",
-      image: "/images/chatbotlogo.jpg",
+      image: "/portfolio/images/chatbotlogo.jpg",
       technologies: ["LangChain", "Chroma", "Streamlit", "OpenAI", "RAG"],
       featured: true
     },
     {
       title: "Premier League Dashboard",
       description: "Query and explore Premier League data using MongoDB, a football API, and a Streamlit frontend. Stats-driven fan heaven.",
-      image: "/images/premierleaguelogo.png",
+      image: "/portfolio/images/premierleaguelogo.png",
       technologies: ["MongoDB", "Streamlit", "REST API", "Data Visualization"],
       github: "https://github.com/CorrosiveMoon/Premier-League-Statistics",
       featured: true
@@ -186,7 +186,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "TailorED (LMS)",
       description: "Graduation project: an AI-powered Learning Management System with features like personalized paths, virtual mentors, quiz adaptation, summarization, and smart content search.",
-      image: "/images/TailoredLogo.png",
+      image: "/portfolio/images/TailoredLogo.png",
       technologies: ["AI", "LMS", "Personalization", "Machine Learning"],
       featured: true
     }
