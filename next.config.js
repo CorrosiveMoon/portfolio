@@ -5,8 +5,11 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  // Only use basePath and assetPrefix for production (GitHub Pages)
+  ...(process.env.NODE_ENV === 'production' && {
+    basePath: '/portfolio',
+    assetPrefix: '/portfolio/',
+  }),
   distDir: 'out'
 }
 
