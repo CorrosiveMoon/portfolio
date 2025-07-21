@@ -59,7 +59,7 @@ export default function Education() {
                     Academic & Leadership Achievements
                   </h4>
                   <div className="flex flex-col gap-3">
-                    {education.achievements.map((achievement, index) => (
+                    {education.achievements.map((achievement: string, index: number) => (
                       <div
                         key={index}
                         className="flex items-start space-x-3 p-4 bg-background rounded-lg border border-border"

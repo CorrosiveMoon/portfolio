@@ -1,63 +1,63 @@
-// export interface Project {
-//   title: string;
-//   description: string;
-//   image: string;
-//   technologies: string[];
-//   github?: string;
-//   demo?: string;
-//   featured: boolean;
-// }
+export interface Project {
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github?: string;
+  demo?: string;
+  featured: boolean;
+}
 
-// export interface SkillCategory {
-//   title: string;
-//   skills: string[];
-//   progress: number;
-// }
+export interface SkillCategory {
+  title: string;
+  skills: string[];
+  progress: number;
+}
 
-// export interface Experience {
-//   role: string;
-//   company: string;
-//   logo: string;
-//   duration: string;
-//   description: string;
-//   achievements: string[];
-// }
+export interface Experience {
+  role: string;
+  company: string;
+  logo: string;
+  duration: string;
+  description: string;
+  achievements: string[];
+}
 
-// export interface PortfolioData {
-//   personal: {
-//     name: string;
-//     title: string;
-//     description: string;
-//     email: string;
-//     resumeUrl: string;
-//     location: string;
-//     avatarImages: {
-//       laptop: string;
-//       wave: string;
-//     };
-//   };
-//   socialLinks: {
-//     github: string;
-//     linkedin: string;
-//     email: string;
-//   };
-//   skills: {
-//     title: string;
-//     description: string;
-//     categories: SkillCategory[];
-//     highlights: string[];
-//   };
-//   education: {
-//     school: string;
-//     degree: string;
-//     duration: string;
-//     logo: string;
-//     description: string;
-//     achievements: string[];
-//   };
-//   experience: Experience[];
-//   projects: Project[];
-// }
+export interface PortfolioData {
+  personal: {
+    name: string;
+    title: string;
+    description: string;
+    email: string;
+    resumeUrl: string;
+    location: string;
+    avatarImages: {
+      laptop: string;
+      wave: string;
+    };
+  };
+  socialLinks: {
+    github: string;
+    linkedin: string;
+    email: string;
+  };
+  skills: {
+    title: string;
+    description: string;
+    categories: SkillCategory[];
+    highlights: string[];
+  };
+  education: {
+    school: string;
+    degree: string;
+    duration: string;
+    logo: string;
+    description: string;
+    achievements: string[];
+  };
+  experience: Experience[];
+  projects: Project[];
+}
 
 // export const portfolioData: PortfolioData = {
 //   personal: {
