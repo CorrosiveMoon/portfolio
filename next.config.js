@@ -22,7 +22,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Remove basePath for now - let's use the repository as the base
+  // No basePath needed for main GitHub Pages site
   distDir: 'out'
 }
 
