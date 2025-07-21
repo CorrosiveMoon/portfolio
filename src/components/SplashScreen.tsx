@@ -108,12 +108,6 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
 
-  // Get the correct image path based on environment
-  const getImagePath = (path: string) => {
-    const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
-    return `${basePath}${path}`;
-  };
-
   useEffect(() => {
     setWindowSize({
       width: window.innerWidth,
@@ -149,7 +143,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
           <div className="relative w-32 h-32 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-pulse opacity-75"></div>
             <Image
-              src={getImagePath("/images/avatar-laptop.svg")}
+              src="/images/avatar-laptop.svg"
               alt="Yassin Hesham"
               width={128}
               height={128}
