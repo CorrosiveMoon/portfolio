@@ -154,32 +154,6 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-
-          <div className="flex flex-col items-center mt-16">
-            <h3 className="text-xl font-semibold mb-6 text-muted-foreground">
-              My GitHub Activity
-            </h3>
-            <div className="flex flex-col items-center bg-muted/30 rounded-lg p-6 max-w-2xl">
-              <div className="flex flex-wrap gap-1 justify-center max-w-full">
-                {Array.from({ length: 365 }, (_, i) => (
-                  <div
-                    key={i}
-                    className="w-3 h-3 rounded-sm bg-muted"
-                    style={{
-                      backgroundColor: Math.random() > 0.7 
-                        ? 'hsl(var(--primary))' 
-                        : Math.random() > 0.4 
-                        ? 'hsl(var(--primary) / 0.6)' 
-                        : 'hsl(var(--muted))'
-                    }}
-                  />
-                ))}
-              </div>
-              <p className="text-sm text-muted-foreground mt-4 text-center">
-                🔥 Consistent coding and learning throughout the year
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
